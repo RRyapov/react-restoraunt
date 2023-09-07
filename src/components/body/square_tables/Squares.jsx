@@ -113,6 +113,8 @@ export const Squares = () => {
             src="block_images/block_img_3.png"
             alt="block_img"
           />
+
+
           
         </div>
       </div>
