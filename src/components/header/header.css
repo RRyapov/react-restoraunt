@@ -1,0 +1,162 @@
+.header {
+  background-image: url(./img/background.jpg);
+  height: 800px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header-line {
+  margin: 0px 166px;
+  padding-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.nav-item {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 14px;
+  margin-right: 25px;
+  cursor: pointer;
+  transition: all 0.5s linear;
+}
+
+.basket {
+  position: relative;
+  border-right: 1px solid #fff;
+  padding-right: 10px;
+  height: 50px;
+}
+
+.cart-img {
+  position: absolute;
+  top: 18px;
+  right: 13px;
+}
+
+.num {
+  position: relative;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 18px;
+  transition: all 0.5s linear;
+}
+
+.phone-text {
+  color: #fff;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.phone-holder {
+  display: flex;
+  align-items: center;
+}
+
+.button {
+  background-color: #ff7400;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 14px;
+  padding: 14px 18px;
+  border-radius: 5px;
+  transition: all 0.3s linear;
+}
+
+.nav-item:hover {
+  color: #d81d1d;
+}
+
+.nav-item--select {
+  color: #d81d1d;
+}
+
+.num:hover {
+  color: #d81d1d;
+}
+
+.button:hover {
+  background-color: #bf0000;
+  color: black;
+}
+
+.header-content {
+  font-family: Tinos, serial;
+  font-size: 40px;
+  font-weight: 400;
+  color: #d67e35;
+  text-align: center;
+  width: 450px;
+  padding-left: 10px;
+  margin-top: 230px;
+  position: relative;
+}
+
+.header-content__subtitle {
+  font-family: Tinos, serial;
+  font-size: 70px;
+  font-weight: 400;
+}
+
+.header-line {
+  justify-content: space-between;
+  width: 80%;
+}
+
+.nav {
+  padding-left: 160px;
+}
+
+.header-content__suptitle {
+  padding-top: 10px;
+  padding-bottom: 22px;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.header-content::after {
+  position: absolute;
+  content: "";
+  height: 1.5px;
+  width: 61px;
+  background-color: #fff;
+  top: 150px;
+  left: 60px;
+}
+
+.header-content::before {
+  position: absolute;
+  content: "";
+  height: 1.5px;
+  width: 61px;
+  background-color: #fff;
+  top: 150px;
+  right: 60px;
+}
+
+.header-content__button {
+  margin: 0 auto;
+}
+
+.header-content__button-item {
+  border-radius: 5px;
+  font-family: Open Sans, serif;
+  font-weight: 600;
+  font-size: 14px;
+  background-color: #ff7400;
+  color: #fff;
+  padding: 14px 28px;
+  text-decoration: none;
+  transition: all 0.8s ease;
+}
+
+.header-content__button-item:hover {
+  background-color: #bf0000;
+  color: #000;
+}
