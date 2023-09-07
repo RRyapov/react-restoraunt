@@ -92,7 +92,7 @@ export const Squares = () => {
             </div>
             <div class="description-info__first-title">
               71
-              <span class="description-info__second-title">Закуски под пиво</span>
+              <span class="description-info__second-title">Закуски для пива</span>
             </div>
           </div>
         </div>
