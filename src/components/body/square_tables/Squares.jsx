@@ -96,6 +96,7 @@ export const Squares = () => {
             </div>
           </div>
         </div>
+
         <div class="block-img">
           <img
             class="block-img__img-1"
@@ -112,6 +113,7 @@ export const Squares = () => {
             src="block_images/block_img_3.png"
             alt="block_img"
           />
+          
         </div>
       </div>
     </div>
