@@ -1,5 +1,5 @@
 import React from "react";
-import "../body.css";
+import "./squares_style.css";
 
 export const Squares = () => {
   return (
@@ -63,59 +63,6 @@ export const Squares = () => {
               всегда на высоте!
             </h2>
           </div>
-        </div>
-      </div>
-      <div class="block_3">
-        <div class="block-text">
-          <div class="description-content">
-            <h1 class="description__main-title">
-              <p class="description__first-element">Наша</p>
-              <p class="description__second-element">История</p>
-            </h1>
-            <h2 class="description_second-title">
-              Как и у любого другого самобытного места, у нас есть своя, особая
-              история. Идея ресторана пришла основателям неожиданно. Во время
-              прогулки по лесу создатель нашего ресторана застрял в сотнях
-              километров от ближайшего населенного пункта. Вдали от цивилизации
-              и связи им пришлось навремя обустровать себе нехитрый быт,
-              добывать и готовить себе еду.
-            </h2>
-          </div>
-          <div class="description-info">
-            <div class="description-info__first-title">
-              93
-              <span class="description-info__second-title">Напитки</span>
-            </div>
-            <div class="description-info__first-title">
-              206
-              <span class="description-info__second-title">Еда</span>
-            </div>
-            <div class="description-info__first-title">
-              71
-              <span class="description-info__second-title">Закуски для пива</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="block-img">
-          <img
-            class="block-img__img-1"
-            src="block_images/block_img_1.png"
-            alt="block_img"
-          />
-          <img
-            class="block-img__img-2"
-            src="block_images/block_img_2.png"
-            alt="block_img"
-          />
-          <img
-            class="block-img__img-3"
-            src="block_images/block_img_3.png"
-            alt="block_img"
-          />
-
-
-          
         </div>
       </div>
     </div>
