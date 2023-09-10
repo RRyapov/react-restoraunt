@@ -16,9 +16,14 @@
     align-items: center;
 }
 
-.frame__content-item:hover{
+.frame__content-item--active {
     transform: scale(102%);
     box-shadow: 10px 10px 40px 20px rgba(225, 31, 9, 0.5);
+}
+
+.frame__content-item--disabled {
+    transform: scale(102%);
+    box-shadow: 10px 10px 40px 20px rgba(9, 167, 225, 0.5);
 }
 
 .frame__content-item_pic {
