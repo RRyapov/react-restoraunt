@@ -46,23 +46,16 @@ export const Squares = () => {
             src="frame_pic.png"
             alt="frame_logo"
           />
-          <div class="frame__content-item">
-            <img
-              class="frame__content-item_pic"
-              src="frame_pic.png"
-              alt="frame_logo"
-            />
-            <h1 class="frame__content-item_main-title">
-              <p class="frame__content-item_main-title-first-element">
-                Недорогая{" "}
-              </p>
-              <p class="frame__content-item_main-title-second-element">Еда</p>
-            </h1>
-            <h2 class="frame__content-description">
-              Стоимость нашей Еды зависит только от ее количества. Качество
-              всегда на высоте!
-            </h2>
-          </div>
+          <h1 class="frame__content-item_main-title">
+            <p class="frame__content-item_main-title-first-element">
+              Недорогая{" "}
+            </p>
+            <p class="frame__content-item_main-title-second-element">Еда</p>
+          </h1>
+          <h2 class="frame__content-description">
+            Стоимость нашей Еды зависит только от ее количества. Качество всегда
+            на высоте!
+          </h2>
         </div>
       </div>
     </div>
