@@ -1,0 +1,109 @@
+.block_3 {
+    box-sizing: border-box;
+    display: flex;
+    height: 700px;
+    margin: 150px auto 0 auto;
+    position: relative;
+    width: 1200px;
+    justify-content: start;
+}
+
+.description__main-title,
+.description_second-title {
+    display: flex;
+    justify-content: center;
+    margin-left: 0px;
+    width: 550px;
+}
+
+.description__first-element,
+.description__second-element {
+    font-size: 56px;
+}
+
+.description__second-element {
+    color: #D67E34;
+    padding-left: 6px;
+}
+
+.description_second-title {
+text-align: center;
+font-size: 22px;
+margin-top: -35px;
+}
+
+.description-info {
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+}
+
+.description-content,
+.description-info__first-title,
+.description-info__second-title {
+    font-family: 'Open Sans', serif;
+    font-weight: 400;
+    line-height: 1.2; 
+}
+
+.description-info__first-title {
+    font-size: 40px;
+    color: #BC9060;
+}
+
+.description-info__second-title {
+    font-size: 20px;
+    color: black;
+    margin-right: 35px;
+    margin-left: 35px;
+}
+
+.description-info__first-title,
+.description-info__second-title {
+    display: block;
+    text-align: center;
+}
+
+.block-img {
+    display: inline-block;
+    position: relative;
+}
+
+.block-img__img-1 {
+    position: absolute;
+    justify-content: start;
+    margin-top: -57px;
+    margin-left: 25px;
+    z-index: 3;
+    box-shadow: 35px 0px 20px rgba(103, 103, 103, 0.5), 0px 15px 15px 2px rgba(103, 103, 103, 0.5),  0px -15px 15px rgba(103, 103, 103, 0.5);
+    transition: all 1s ease;
+}
+
+.block-img__img-2 {
+    position: absolute;
+    z-index: 1;
+    margin-top: 86px;
+    margin-left: 183px;
+    box-shadow: 35px 0px 20px rgba(103, 103, 103, 0.5), 0px 15px 15px 2px rgba(103, 103, 103, 0.5),  0px -15px 15px rgba(103, 103, 103, 0.5);
+    transition: all 1s ease;
+}
+
+.block-img__img-3 {
+    position: absolute;
+    z-index: 2;
+    margin-top: 382px;
+    margin-left: 365px;
+    box-shadow: 35px 0px 20px rgba(103, 103, 103, 0.5), 0px 15px 15px 2px rgba(103, 103, 103, 0.5),  0px -15px 15px rgba(103, 103, 103, 0.5);
+    transition: all 1s ease;
+}
+
+.block-img__img--active {
+    transform: scale (105%);
+    box-shadow: 10px 10px 40px 20px rgba(225, 31, 9, 0.5);
+}
+
+.block-img__img--disabled {
+    transform: scale (105%);
+    box-shadow: 10px 10px 40px 20px rgba(0, 238, 255, 0.5);
+}
+
