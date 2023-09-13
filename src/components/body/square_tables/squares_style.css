@@ -16,9 +16,14 @@
     align-items: center;
 }
 
-.frame__content-item:hover{
+.frame__content-item--active {
     transform: scale(102%);
     box-shadow: 10px 10px 40px 20px rgba(225, 31, 9, 0.5);
+}
+
+.frame__content-item--disabled {
+    transform: scale(102%);
+    box-shadow: 10px 10px 40px 20px rgba(9, 167, 225, 0.5);
 }
 
 .frame__content-item_pic {
@@ -48,14 +53,19 @@
     padding-right: 6px;
 }
 
-.frame__content-item_main-title-second-element {
+.frame__content-item_main-title-second-element,
+.description__second-element,
+.block-4__text--title-1 {
     font-family: Tinos, serial;
     font-size: 26px;
     font-weight: 400;
     color: #BC9060;
 }
 
-.frame__content-description {
+.frame__content-description,
+.description_second-title,
+.burgers,
+.card__text--title {
     font-family: Tinos, serial;
     font-size: 26px;
     font-weight: 400;
