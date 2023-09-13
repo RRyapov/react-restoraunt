@@ -97,17 +97,13 @@ margin-top: -35px;
     transition: all 1s ease;
 }
 
-.block-img__img-1:hover {
+.block-img__img--active {
     transform: scale (105%);
     box-shadow: 10px 10px 40px 20px rgba(225, 31, 9, 0.5);
 }
 
-.block-img__img-2:hover {
+.block-img__img--disabled {
     transform: scale (105%);
-    box-shadow: 10px 10px 40px 20px rgba(225, 31, 9, 0.5);
+    box-shadow: 10px 10px 40px 20px rgba(0, 238, 255, 0.5);
 }
 
-.block-img__img-3:hover {
-    transform: scale (105%);
-    box-shadow: 10px 10px 40px 20px rgba(225, 31, 9, 0.5);
-}
