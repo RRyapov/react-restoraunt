@@ -1,5 +1,22 @@
-import React from "react";
+import React, { useState } from "react";
 import { DishPicTwo } from "./DishPictures";
+
+const DishPrice = ({ title, price }) => {
+  const [isDishShown, setDishShown] = useState(false);
+  return (
+    <div class="block-5__burgers">
+      <DishPicTwo
+        onClickFunc={() => setDishShown((prevIsDishShown) => !prevIsDishShown)}
+      />
+      {isDishShown && (
+        <p>
+          {title}
+          <span>{price}</span>
+        </p>
+      )}
+    </div>
+  );
+};
 
 const arr = [
   { title: "Гамбургер ---- ", price: "250 руб." },
@@ -10,18 +27,9 @@ const arr = [
 export const DishPrices = () => {
   return (
     <div class="burgers">
-        
-        {arr.map((item) => {
-            return (
-                <div class="block-5__burgers">
-                    <DishPicTwo />
-            <p>{item.title}
-            <span>{item.price}</span>
-          </p>
-          </div>
-          )
-        })}
+      {arr.map((item) => (
+        <DishPrice title={item.title} price={item.price} />
+      ))}
     </div>
   );
 };
-

@@ -1,6 +1,6 @@
 import React from "react";
 import "./our_dishes.css";
-import { DishPicOne, DishPicTwo } from "./DishPictures";
+import { DishPicOne} from "./DishPictures";
 import { DishPrices } from "./Prices";
 
 export const OurDish = () => {
@@ -16,21 +16,10 @@ export const OurDish = () => {
         <div class="block-5__images">
           <DishPicOne />
           <div class="block-5__img-2">
-          <DishPrices />
-
-            {/* <div class="block-5__burgers">
-              <DishPicTwo />
-              
-            </div>
-            <div class="block-5__burgers">
-              <DishPicTwo />
-              <div class="burgers">
-                <p>Гамбургер мини ------------------ 250 руб.</p>
-              </div> */}
-            </div>
+            <DishPrices />
           </div>
         </div>
       </div>
-    // </div>
+    </div>
   );
 };
